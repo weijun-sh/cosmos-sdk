@@ -5,11 +5,11 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/cosmos/cosmos-sdk/crypto/keys/secp256k1"
-	"github.com/cosmos/cosmos-sdk/crypto/keys/secp256r1"
-	cryptotypes "github.com/cosmos/cosmos-sdk/crypto/types"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
+	"github.com/weijun-sh/cosmos-sdk/crypto/keys/secp256k1"
+	"github.com/weijun-sh/cosmos-sdk/crypto/keys/secp256r1"
+	cryptotypes "github.com/weijun-sh/cosmos-sdk/crypto/types"
+	sdk "github.com/weijun-sh/cosmos-sdk/types"
+	sdkerrors "github.com/weijun-sh/cosmos-sdk/types/errors"
 )
 
 // KeyTestPubAddr generates a new secp256k1 keypair.

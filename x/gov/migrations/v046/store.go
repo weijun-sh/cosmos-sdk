@@ -1,12 +1,12 @@
 package v046
 
 import (
-	"github.com/cosmos/cosmos-sdk/codec"
-	"github.com/cosmos/cosmos-sdk/store/prefix"
-	storetypes "github.com/cosmos/cosmos-sdk/store/types"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	v040 "github.com/cosmos/cosmos-sdk/x/gov/migrations/v040"
-	"github.com/cosmos/cosmos-sdk/x/gov/types/v1beta1"
+	"github.com/weijun-sh/cosmos-sdk/codec"
+	"github.com/weijun-sh/cosmos-sdk/store/prefix"
+	storetypes "github.com/weijun-sh/cosmos-sdk/store/types"
+	sdk "github.com/weijun-sh/cosmos-sdk/types"
+	v040 "github.com/weijun-sh/cosmos-sdk/x/gov/migrations/v040"
+	"github.com/weijun-sh/cosmos-sdk/x/gov/types/v1beta1"
 )
 
 // migrateProposals migrates all legacy proposals into MsgExecLegacyContent

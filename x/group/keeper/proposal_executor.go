@@ -1,11 +1,11 @@
 package keeper
 
 import (
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/types/errors"
-	authmiddleware "github.com/cosmos/cosmos-sdk/x/auth/middleware"
-	"github.com/cosmos/cosmos-sdk/x/group"
-	grouperrors "github.com/cosmos/cosmos-sdk/x/group/errors"
+	sdk "github.com/weijun-sh/cosmos-sdk/types"
+	"github.com/weijun-sh/cosmos-sdk/types/errors"
+	authmiddleware "github.com/weijun-sh/cosmos-sdk/x/auth/middleware"
+	"github.com/weijun-sh/cosmos-sdk/x/group"
+	grouperrors "github.com/weijun-sh/cosmos-sdk/x/group/errors"
 )
 
 // doExecuteMsgs routes the messages to the registered handlers. Messages are limited to those that require no authZ or

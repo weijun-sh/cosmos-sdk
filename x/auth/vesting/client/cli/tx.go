@@ -8,11 +8,11 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/cosmos/cosmos-sdk/client"
-	"github.com/cosmos/cosmos-sdk/client/flags"
-	"github.com/cosmos/cosmos-sdk/client/tx"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/x/auth/vesting/types"
+	"github.com/weijun-sh/cosmos-sdk/client"
+	"github.com/weijun-sh/cosmos-sdk/client/flags"
+	"github.com/weijun-sh/cosmos-sdk/client/tx"
+	sdk "github.com/weijun-sh/cosmos-sdk/types"
+	"github.com/weijun-sh/cosmos-sdk/x/auth/vesting/types"
 )
 
 // Transaction command flags

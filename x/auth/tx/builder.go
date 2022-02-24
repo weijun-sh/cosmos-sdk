@@ -3,16 +3,16 @@ package tx
 import (
 	"github.com/gogo/protobuf/proto"
 
-	"github.com/cosmos/cosmos-sdk/client"
-	"github.com/cosmos/cosmos-sdk/codec"
-	codectypes "github.com/cosmos/cosmos-sdk/codec/types"
-	cryptotypes "github.com/cosmos/cosmos-sdk/crypto/types"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
-	"github.com/cosmos/cosmos-sdk/types/tx"
-	"github.com/cosmos/cosmos-sdk/types/tx/signing"
-	"github.com/cosmos/cosmos-sdk/x/auth/middleware"
-	authsigning "github.com/cosmos/cosmos-sdk/x/auth/signing"
+	"github.com/weijun-sh/cosmos-sdk/client"
+	"github.com/weijun-sh/cosmos-sdk/codec"
+	codectypes "github.com/weijun-sh/cosmos-sdk/codec/types"
+	cryptotypes "github.com/weijun-sh/cosmos-sdk/crypto/types"
+	sdk "github.com/weijun-sh/cosmos-sdk/types"
+	sdkerrors "github.com/weijun-sh/cosmos-sdk/types/errors"
+	"github.com/weijun-sh/cosmos-sdk/types/tx"
+	"github.com/weijun-sh/cosmos-sdk/types/tx/signing"
+	"github.com/weijun-sh/cosmos-sdk/x/auth/middleware"
+	authsigning "github.com/weijun-sh/cosmos-sdk/x/auth/signing"
 )
 
 // wrapper is a wrapper around the tx.Tx proto.Message which retain the raw

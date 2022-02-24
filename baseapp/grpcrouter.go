@@ -5,16 +5,16 @@ import (
 
 	"google.golang.org/grpc/encoding"
 
-	"github.com/cosmos/cosmos-sdk/codec"
+	"github.com/weijun-sh/cosmos-sdk/codec"
 
-	"github.com/cosmos/cosmos-sdk/client/grpc/reflection"
+	"github.com/weijun-sh/cosmos-sdk/client/grpc/reflection"
 
 	gogogrpc "github.com/gogo/protobuf/grpc"
 	abci "github.com/tendermint/tendermint/abci/types"
 	"google.golang.org/grpc"
 
-	codectypes "github.com/cosmos/cosmos-sdk/codec/types"
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	codectypes "github.com/weijun-sh/cosmos-sdk/codec/types"
+	sdk "github.com/weijun-sh/cosmos-sdk/types"
 )
 
 // GRPCQueryRouter routes ABCI Query requests to GRPC handlers

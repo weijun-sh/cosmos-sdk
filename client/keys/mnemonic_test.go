@@ -7,7 +7,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/cosmos/cosmos-sdk/testutil"
+	"github.com/weijun-sh/cosmos-sdk/testutil"
 )
 
 func Test_RunMnemonicCmdNormal(t *testing.T) {

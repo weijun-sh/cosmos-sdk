@@ -3,10 +3,10 @@ package keeper
 import (
 	"fmt"
 
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
-	"github.com/cosmos/cosmos-sdk/x/gov/types"
-	"github.com/cosmos/cosmos-sdk/x/gov/types/v1beta2"
+	sdk "github.com/weijun-sh/cosmos-sdk/types"
+	sdkerrors "github.com/weijun-sh/cosmos-sdk/types/errors"
+	"github.com/weijun-sh/cosmos-sdk/x/gov/types"
+	"github.com/weijun-sh/cosmos-sdk/x/gov/types/v1beta2"
 )
 
 // GetDeposit gets the deposit of a specific depositor on a specific proposal

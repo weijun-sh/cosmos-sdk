@@ -5,10 +5,10 @@ import (
 	"io/ioutil"
 	"os"
 
-	"github.com/cosmos/cosmos-sdk/client"
-	"github.com/cosmos/cosmos-sdk/codec"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/x/group"
+	"github.com/weijun-sh/cosmos-sdk/client"
+	"github.com/weijun-sh/cosmos-sdk/codec"
+	sdk "github.com/weijun-sh/cosmos-sdk/types"
+	"github.com/weijun-sh/cosmos-sdk/x/group"
 )
 
 func parseMembers(clientCtx client.Context, membersFile string) ([]group.Member, error) {

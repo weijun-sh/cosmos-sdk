@@ -3,7 +3,7 @@ package testkv
 import (
 	dbm "github.com/tendermint/tm-db"
 
-	"github.com/cosmos/cosmos-sdk/orm/model/ormtable"
+	"github.com/weijun-sh/cosmos-sdk/orm/model/ormtable"
 )
 
 // NewSplitMemBackend returns a Backend instance

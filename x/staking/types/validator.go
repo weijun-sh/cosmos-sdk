@@ -11,12 +11,12 @@ import (
 	tmprotocrypto "github.com/tendermint/tendermint/proto/tendermint/crypto"
 	"sigs.k8s.io/yaml"
 
-	"github.com/cosmos/cosmos-sdk/codec"
-	codectypes "github.com/cosmos/cosmos-sdk/codec/types"
-	cryptocodec "github.com/cosmos/cosmos-sdk/crypto/codec"
-	cryptotypes "github.com/cosmos/cosmos-sdk/crypto/types"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
+	"github.com/weijun-sh/cosmos-sdk/codec"
+	codectypes "github.com/weijun-sh/cosmos-sdk/codec/types"
+	cryptocodec "github.com/weijun-sh/cosmos-sdk/crypto/codec"
+	cryptotypes "github.com/weijun-sh/cosmos-sdk/crypto/types"
+	sdk "github.com/weijun-sh/cosmos-sdk/types"
+	sdkerrors "github.com/weijun-sh/cosmos-sdk/types/errors"
 )
 
 const (

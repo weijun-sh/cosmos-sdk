@@ -1,8 +1,8 @@
 package types_test
 
 import (
-	"github.com/cosmos/cosmos-sdk/codec"
-	"github.com/cosmos/cosmos-sdk/codec/legacy"
+	"github.com/weijun-sh/cosmos-sdk/codec"
+	"github.com/weijun-sh/cosmos-sdk/codec/legacy"
 	"math/rand"
 	"sort"
 	"testing"
@@ -10,8 +10,8 @@ import (
 	"github.com/stretchr/testify/require"
 	tmproto "github.com/tendermint/tendermint/proto/tendermint/types"
 
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/x/staking/types"
+	sdk "github.com/weijun-sh/cosmos-sdk/types"
+	"github.com/weijun-sh/cosmos-sdk/x/staking/types"
 )
 
 var header = tmproto.Header{

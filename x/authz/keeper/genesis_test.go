@@ -7,11 +7,11 @@ import (
 	"github.com/stretchr/testify/suite"
 	tmproto "github.com/tendermint/tendermint/proto/tendermint/types"
 
-	"github.com/cosmos/cosmos-sdk/crypto/keys/secp256k1"
-	"github.com/cosmos/cosmos-sdk/simapp"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/x/authz/keeper"
-	bank "github.com/cosmos/cosmos-sdk/x/bank/types"
+	"github.com/weijun-sh/cosmos-sdk/crypto/keys/secp256k1"
+	"github.com/weijun-sh/cosmos-sdk/simapp"
+	sdk "github.com/weijun-sh/cosmos-sdk/types"
+	"github.com/weijun-sh/cosmos-sdk/x/authz/keeper"
+	bank "github.com/weijun-sh/cosmos-sdk/x/bank/types"
 )
 
 type GenesisTestSuite struct {

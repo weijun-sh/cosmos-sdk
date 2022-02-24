@@ -5,20 +5,20 @@ import (
 	"fmt"
 	"time"
 
-	minttypes "github.com/cosmos/cosmos-sdk/x/mint/types"
+	minttypes "github.com/weijun-sh/cosmos-sdk/x/mint/types"
 
 	"github.com/stretchr/testify/suite"
 	tmproto "github.com/tendermint/tendermint/proto/tendermint/types"
 
-	"github.com/cosmos/cosmos-sdk/baseapp"
-	"github.com/cosmos/cosmos-sdk/crypto/keys/ed25519"
-	cryptotypes "github.com/cosmos/cosmos-sdk/crypto/types"
-	"github.com/cosmos/cosmos-sdk/simapp"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	authtypes "github.com/cosmos/cosmos-sdk/x/auth/types"
-	"github.com/cosmos/cosmos-sdk/x/evidence/exported"
-	"github.com/cosmos/cosmos-sdk/x/evidence/keeper"
-	"github.com/cosmos/cosmos-sdk/x/evidence/types"
+	"github.com/weijun-sh/cosmos-sdk/baseapp"
+	"github.com/weijun-sh/cosmos-sdk/crypto/keys/ed25519"
+	cryptotypes "github.com/weijun-sh/cosmos-sdk/crypto/types"
+	"github.com/weijun-sh/cosmos-sdk/simapp"
+	sdk "github.com/weijun-sh/cosmos-sdk/types"
+	authtypes "github.com/weijun-sh/cosmos-sdk/x/auth/types"
+	"github.com/weijun-sh/cosmos-sdk/x/evidence/exported"
+	"github.com/weijun-sh/cosmos-sdk/x/evidence/keeper"
+	"github.com/weijun-sh/cosmos-sdk/x/evidence/types"
 )
 
 var (

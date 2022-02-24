@@ -6,16 +6,16 @@ import (
 	abci "github.com/tendermint/tendermint/abci/types"
 	tmproto "github.com/tendermint/tendermint/proto/tendermint/types"
 
-	"github.com/cosmos/cosmos-sdk/client"
-	clienttx "github.com/cosmos/cosmos-sdk/client/tx"
-	cryptotypes "github.com/cosmos/cosmos-sdk/crypto/types"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/types/tx"
-	"github.com/cosmos/cosmos-sdk/types/tx/signing"
-	authsigning "github.com/cosmos/cosmos-sdk/x/auth/signing"
-	banktypes "github.com/cosmos/cosmos-sdk/x/bank/types"
-	govtypes "github.com/cosmos/cosmos-sdk/x/gov/types/v1beta2"
-	minttypes "github.com/cosmos/cosmos-sdk/x/mint/types"
+	"github.com/weijun-sh/cosmos-sdk/client"
+	clienttx "github.com/weijun-sh/cosmos-sdk/client/tx"
+	cryptotypes "github.com/weijun-sh/cosmos-sdk/crypto/types"
+	sdk "github.com/weijun-sh/cosmos-sdk/types"
+	"github.com/weijun-sh/cosmos-sdk/types/tx"
+	"github.com/weijun-sh/cosmos-sdk/types/tx/signing"
+	authsigning "github.com/weijun-sh/cosmos-sdk/x/auth/signing"
+	banktypes "github.com/weijun-sh/cosmos-sdk/x/bank/types"
+	govtypes "github.com/weijun-sh/cosmos-sdk/x/gov/types/v1beta2"
+	minttypes "github.com/weijun-sh/cosmos-sdk/x/mint/types"
 )
 
 var initialRegens = sdk.NewCoins(sdk.NewCoin("regen", sdk.NewInt(1000)))

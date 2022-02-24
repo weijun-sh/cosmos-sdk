@@ -9,10 +9,10 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/cosmos/cosmos-sdk/codec"
-	codecTypes "github.com/cosmos/cosmos-sdk/codec/types"
-	"github.com/cosmos/cosmos-sdk/store/types"
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	"github.com/weijun-sh/cosmos-sdk/codec"
+	codecTypes "github.com/weijun-sh/cosmos-sdk/codec/types"
+	"github.com/weijun-sh/cosmos-sdk/store/types"
+	sdk "github.com/weijun-sh/cosmos-sdk/types"
 
 	"github.com/stretchr/testify/require"
 	abci "github.com/tendermint/tendermint/abci/types"

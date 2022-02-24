@@ -6,10 +6,10 @@ import (
 	abci "github.com/tendermint/tendermint/abci/types"
 	tmtypes "github.com/tendermint/tendermint/types"
 
-	cryptocodec "github.com/cosmos/cosmos-sdk/crypto/codec"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/x/staking/keeper"
-	"github.com/cosmos/cosmos-sdk/x/staking/types"
+	cryptocodec "github.com/weijun-sh/cosmos-sdk/crypto/codec"
+	sdk "github.com/weijun-sh/cosmos-sdk/types"
+	"github.com/weijun-sh/cosmos-sdk/x/staking/keeper"
+	"github.com/weijun-sh/cosmos-sdk/x/staking/types"
 )
 
 // InitGenesis sets the pool and parameters for the provided keeper.  For each
@@ -112,7 +112,7 @@ func InitGenesis(
 		panic(fmt.Sprintf("%s module account has not been set", types.BondedPoolName))
 	}
 
-	// TODO: remove with genesis 2-phases refactor https://github.com/cosmos/cosmos-sdk/issues/2862
+	// TODO: remove with genesis 2-phases refactor https://github.com/weijun-sh/cosmos-sdk/issues/2862
 	bondedBalance := bankKeeper.GetAllBalances(ctx, bondedPool.GetAddress())
 	if bondedBalance.IsZero() {
 		accountKeeper.SetModuleAccount(ctx, bondedPool)

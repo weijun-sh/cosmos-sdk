@@ -2,14 +2,14 @@ package types
 
 import (
 	"fmt"
-	"github.com/cosmos/cosmos-sdk/codec/legacy"
+	"github.com/weijun-sh/cosmos-sdk/codec/legacy"
 
 	"github.com/gogo/protobuf/proto"
 
-	"github.com/cosmos/cosmos-sdk/codec/types"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
-	"github.com/cosmos/cosmos-sdk/x/evidence/exported"
+	"github.com/weijun-sh/cosmos-sdk/codec/types"
+	sdk "github.com/weijun-sh/cosmos-sdk/types"
+	sdkerrors "github.com/weijun-sh/cosmos-sdk/types/errors"
+	"github.com/weijun-sh/cosmos-sdk/x/evidence/exported"
 )
 
 // Message types for the evidence module

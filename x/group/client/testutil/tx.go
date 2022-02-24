@@ -11,17 +11,17 @@ import (
 	"github.com/stretchr/testify/suite"
 	tmcli "github.com/tendermint/tendermint/libs/cli"
 
-	"github.com/cosmos/cosmos-sdk/client/flags"
-	"github.com/cosmos/cosmos-sdk/crypto/hd"
-	"github.com/cosmos/cosmos-sdk/crypto/keyring"
-	"github.com/cosmos/cosmos-sdk/testutil"
-	"github.com/cosmos/cosmos-sdk/testutil/cli"
-	"github.com/cosmos/cosmos-sdk/testutil/network"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	banktestutil "github.com/cosmos/cosmos-sdk/x/bank/client/testutil"
-	banktypes "github.com/cosmos/cosmos-sdk/x/bank/types"
-	"github.com/cosmos/cosmos-sdk/x/group"
-	client "github.com/cosmos/cosmos-sdk/x/group/client/cli"
+	"github.com/weijun-sh/cosmos-sdk/client/flags"
+	"github.com/weijun-sh/cosmos-sdk/crypto/hd"
+	"github.com/weijun-sh/cosmos-sdk/crypto/keyring"
+	"github.com/weijun-sh/cosmos-sdk/testutil"
+	"github.com/weijun-sh/cosmos-sdk/testutil/cli"
+	"github.com/weijun-sh/cosmos-sdk/testutil/network"
+	sdk "github.com/weijun-sh/cosmos-sdk/types"
+	banktestutil "github.com/weijun-sh/cosmos-sdk/x/bank/client/testutil"
+	banktypes "github.com/weijun-sh/cosmos-sdk/x/bank/types"
+	"github.com/weijun-sh/cosmos-sdk/x/group"
+	client "github.com/weijun-sh/cosmos-sdk/x/group/client/cli"
 )
 
 type IntegrationTestSuite struct {
@@ -1452,7 +1452,7 @@ func (s *IntegrationTestSuite) TestTxUpdateGroupPolicyMetadata() {
 // proposal ids in other tests (e.g. voting or Exec tests).
 // This is a headache, but requires a bigger refactor of all tests in this file
 // so that each one is independent.
-// https://github.com/cosmos/cosmos-sdk/issues/11168
+// https://github.com/weijun-sh/cosmos-sdk/issues/11168
 func (s *IntegrationTestSuite) TestTxCreateProposal() {
 	val := s.network.Validators[0]
 	clientCtx := val.ClientCtx

@@ -1,6 +1,6 @@
 package ormerrors
 
-import "github.com/cosmos/cosmos-sdk/errors"
+import "github.com/weijun-sh/cosmos-sdk/errors"
 
 var codespace = "orm"
 

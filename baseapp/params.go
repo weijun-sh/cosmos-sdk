@@ -6,7 +6,7 @@ import (
 
 	tmproto "github.com/tendermint/tendermint/proto/tendermint/types"
 
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	sdk "github.com/weijun-sh/cosmos-sdk/types"
 )
 
 // Paramspace defines the parameter subspace to be used for the paramstore.

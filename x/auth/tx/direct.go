@@ -3,11 +3,11 @@ package tx
 import (
 	"fmt"
 
-	signingtypes "github.com/cosmos/cosmos-sdk/types/tx/signing"
+	signingtypes "github.com/weijun-sh/cosmos-sdk/types/tx/signing"
 
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	types "github.com/cosmos/cosmos-sdk/types/tx"
-	"github.com/cosmos/cosmos-sdk/x/auth/signing"
+	sdk "github.com/weijun-sh/cosmos-sdk/types"
+	types "github.com/weijun-sh/cosmos-sdk/types/tx"
+	"github.com/weijun-sh/cosmos-sdk/x/auth/signing"
 )
 
 // signModeDirectHandler defines the SIGN_MODE_DIRECT SignModeHandler

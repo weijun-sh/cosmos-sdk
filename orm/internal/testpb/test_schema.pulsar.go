@@ -16,7 +16,7 @@ import (
 	durationpb "google.golang.org/protobuf/types/known/durationpb"
 	timestamppb "google.golang.org/protobuf/types/known/timestamppb"
 
-	_ "github.com/cosmos/cosmos-sdk/api/cosmos/orm/v1alpha1"
+	_ "github.com/weijun-sh/cosmos-sdk/api/cosmos/orm/v1alpha1"
 )
 
 var _ protoreflect.List = (*_ExampleTable_17_list)(nil)

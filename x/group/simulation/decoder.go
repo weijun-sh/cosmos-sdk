@@ -4,10 +4,10 @@ import (
 	"bytes"
 	"fmt"
 
-	"github.com/cosmos/cosmos-sdk/codec"
-	"github.com/cosmos/cosmos-sdk/types/kv"
-	"github.com/cosmos/cosmos-sdk/x/group"
-	"github.com/cosmos/cosmos-sdk/x/group/keeper"
+	"github.com/weijun-sh/cosmos-sdk/codec"
+	"github.com/weijun-sh/cosmos-sdk/types/kv"
+	"github.com/weijun-sh/cosmos-sdk/x/group"
+	"github.com/weijun-sh/cosmos-sdk/x/group/keeper"
 )
 
 // NewDecodeStore returns a decoder function closure that unmarshals the KVPair's

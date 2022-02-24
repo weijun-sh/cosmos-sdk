@@ -1,15 +1,15 @@
 package authz
 
 import (
-	"github.com/cosmos/cosmos-sdk/codec/legacy"
+	"github.com/weijun-sh/cosmos-sdk/codec/legacy"
 	"time"
 
 	"github.com/gogo/protobuf/proto"
 
-	cdctypes "github.com/cosmos/cosmos-sdk/codec/types"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
-	"github.com/cosmos/cosmos-sdk/x/auth/migrations/legacytx"
+	cdctypes "github.com/weijun-sh/cosmos-sdk/codec/types"
+	sdk "github.com/weijun-sh/cosmos-sdk/types"
+	sdkerrors "github.com/weijun-sh/cosmos-sdk/types/errors"
+	"github.com/weijun-sh/cosmos-sdk/x/auth/migrations/legacytx"
 )
 
 var (

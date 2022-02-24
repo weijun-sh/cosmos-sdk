@@ -1,17 +1,17 @@
 package authz_test
 
 import (
-	stakingtypes "github.com/cosmos/cosmos-sdk/x/staking/types"
+	stakingtypes "github.com/weijun-sh/cosmos-sdk/x/staking/types"
 	"testing"
 	"time"
 
 	"github.com/stretchr/testify/require"
 
-	cdctypes "github.com/cosmos/cosmos-sdk/codec/types"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/x/auth/migrations/legacytx"
-	"github.com/cosmos/cosmos-sdk/x/authz"
-	banktypes "github.com/cosmos/cosmos-sdk/x/bank/types"
+	cdctypes "github.com/weijun-sh/cosmos-sdk/codec/types"
+	sdk "github.com/weijun-sh/cosmos-sdk/types"
+	"github.com/weijun-sh/cosmos-sdk/x/auth/migrations/legacytx"
+	"github.com/weijun-sh/cosmos-sdk/x/authz"
+	banktypes "github.com/weijun-sh/cosmos-sdk/x/bank/types"
 )
 
 var (
@@ -147,7 +147,7 @@ func TestAminoJSON(t *testing.T) {
 	// `{"account_number":"1","chain_id":"foo","fee":{"amount":[],"gas":"0"},"memo":"memo","msgs":[{"grant":{"authorization":{"msg":"/cosmos.bank.v1beta1.MsgSend"},"expiration":"0001-01-01T02:01:01.000000001Z"},"grantee":"cosmos1def","granter":"cosmos1abc"}],"sequence":"1","timeout_height":"1"}`
 	//
 	// This was a bug. Now, it's as below, See how there's `type` & `value` fields.
-	// ref: https://github.com/cosmos/cosmos-sdk/issues/11190
+	// ref: https://github.com/weijun-sh/cosmos-sdk/issues/11190
 	// ref: https://github.com/cosmos/cosmjs/issues/1026
 	msg = &authz.MsgGrant{Granter: "cosmos1abc", Grantee: "cosmos1def", Grant: grant}
 	tx.Msgs = []sdk.Msg{msg}

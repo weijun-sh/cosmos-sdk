@@ -4,7 +4,7 @@ package types
 import (
 	fmt "fmt"
 	runtime "github.com/cosmos/cosmos-proto/runtime"
-	crypto "github.com/cosmos/cosmos-sdk/api/tendermint/crypto"
+	crypto "github.com/weijun-sh/cosmos-sdk/api/tendermint/crypto"
 	_ "github.com/gogo/protobuf/gogoproto"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoiface "google.golang.org/protobuf/runtime/protoiface"

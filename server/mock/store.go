@@ -5,8 +5,8 @@ import (
 
 	dbm "github.com/tendermint/tm-db"
 
-	storetypes "github.com/cosmos/cosmos-sdk/store/types"
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	storetypes "github.com/weijun-sh/cosmos-sdk/store/types"
+	sdk "github.com/weijun-sh/cosmos-sdk/types"
 )
 
 var _ sdk.MultiStore = multiStore{}

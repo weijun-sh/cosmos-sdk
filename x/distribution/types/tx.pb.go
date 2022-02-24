@@ -7,9 +7,9 @@ import (
 	context "context"
 	fmt "fmt"
 	_ "github.com/cosmos/cosmos-proto"
-	github_com_cosmos_cosmos_sdk_types "github.com/cosmos/cosmos-sdk/types"
-	types "github.com/cosmos/cosmos-sdk/types"
-	_ "github.com/cosmos/cosmos-sdk/types/msgservice"
+	github_com_cosmos_cosmos_sdk_types "github.com/weijun-sh/cosmos-sdk/types"
+	types "github.com/weijun-sh/cosmos-sdk/types"
+	_ "github.com/weijun-sh/cosmos-sdk/types/msgservice"
 	_ "github.com/gogo/protobuf/gogoproto"
 	grpc1 "github.com/gogo/protobuf/grpc"
 	proto "github.com/gogo/protobuf/proto"
@@ -267,7 +267,7 @@ var xxx_messageInfo_MsgWithdrawValidatorCommissionResponse proto.InternalMessage
 // MsgFundCommunityPool allows an account to directly
 // fund the community pool.
 type MsgFundCommunityPool struct {
-	Amount    github_com_cosmos_cosmos_sdk_types.Coins `protobuf:"bytes,1,rep,name=amount,proto3,castrepeated=github.com/cosmos/cosmos-sdk/types.Coins" json:"amount"`
+	Amount    github_com_cosmos_cosmos_sdk_types.Coins `protobuf:"bytes,1,rep,name=amount,proto3,castrepeated=github.com/weijun-sh/cosmos-sdk/types.Coins" json:"amount"`
 	Depositor string                                   `protobuf:"bytes,2,opt,name=depositor,proto3" json:"depositor,omitempty"`
 }
 

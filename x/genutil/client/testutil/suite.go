@@ -9,16 +9,16 @@ import (
 
 	"github.com/stretchr/testify/suite"
 
-	"github.com/cosmos/cosmos-sdk/client"
-	"github.com/cosmos/cosmos-sdk/client/flags"
-	"github.com/cosmos/cosmos-sdk/simapp"
-	"github.com/cosmos/cosmos-sdk/testutil"
-	"github.com/cosmos/cosmos-sdk/testutil/network"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	banktypes "github.com/cosmos/cosmos-sdk/x/bank/types"
-	"github.com/cosmos/cosmos-sdk/x/genutil/client/cli"
-	stakingcli "github.com/cosmos/cosmos-sdk/x/staking/client/cli"
-	"github.com/cosmos/cosmos-sdk/x/staking/types"
+	"github.com/weijun-sh/cosmos-sdk/client"
+	"github.com/weijun-sh/cosmos-sdk/client/flags"
+	"github.com/weijun-sh/cosmos-sdk/simapp"
+	"github.com/weijun-sh/cosmos-sdk/testutil"
+	"github.com/weijun-sh/cosmos-sdk/testutil/network"
+	sdk "github.com/weijun-sh/cosmos-sdk/types"
+	banktypes "github.com/weijun-sh/cosmos-sdk/x/bank/types"
+	"github.com/weijun-sh/cosmos-sdk/x/genutil/client/cli"
+	stakingcli "github.com/weijun-sh/cosmos-sdk/x/staking/client/cli"
+	"github.com/weijun-sh/cosmos-sdk/x/staking/types"
 )
 
 type IntegrationTestSuite struct {

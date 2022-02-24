@@ -6,7 +6,7 @@ import (
 
 	"sigs.k8s.io/yaml"
 
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	sdk "github.com/weijun-sh/cosmos-sdk/types"
 )
 
 // Default period for deposits & voting

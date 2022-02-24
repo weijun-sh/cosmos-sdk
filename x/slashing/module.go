@@ -11,17 +11,17 @@ import (
 	"github.com/spf13/cobra"
 	abci "github.com/tendermint/tendermint/abci/types"
 
-	"github.com/cosmos/cosmos-sdk/client"
-	"github.com/cosmos/cosmos-sdk/codec"
-	cdctypes "github.com/cosmos/cosmos-sdk/codec/types"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/types/module"
-	simtypes "github.com/cosmos/cosmos-sdk/types/simulation"
-	"github.com/cosmos/cosmos-sdk/x/slashing/client/cli"
-	"github.com/cosmos/cosmos-sdk/x/slashing/keeper"
-	"github.com/cosmos/cosmos-sdk/x/slashing/simulation"
-	"github.com/cosmos/cosmos-sdk/x/slashing/types"
-	stakingkeeper "github.com/cosmos/cosmos-sdk/x/staking/keeper"
+	"github.com/weijun-sh/cosmos-sdk/client"
+	"github.com/weijun-sh/cosmos-sdk/codec"
+	cdctypes "github.com/weijun-sh/cosmos-sdk/codec/types"
+	sdk "github.com/weijun-sh/cosmos-sdk/types"
+	"github.com/weijun-sh/cosmos-sdk/types/module"
+	simtypes "github.com/weijun-sh/cosmos-sdk/types/simulation"
+	"github.com/weijun-sh/cosmos-sdk/x/slashing/client/cli"
+	"github.com/weijun-sh/cosmos-sdk/x/slashing/keeper"
+	"github.com/weijun-sh/cosmos-sdk/x/slashing/simulation"
+	"github.com/weijun-sh/cosmos-sdk/x/slashing/types"
+	stakingkeeper "github.com/weijun-sh/cosmos-sdk/x/staking/keeper"
 )
 
 var (

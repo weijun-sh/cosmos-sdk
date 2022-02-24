@@ -4,9 +4,9 @@
 package v038
 
 import (
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	v034distr "github.com/cosmos/cosmos-sdk/x/distribution/migrations/v034"
-	v036distr "github.com/cosmos/cosmos-sdk/x/distribution/migrations/v036"
+	sdk "github.com/weijun-sh/cosmos-sdk/types"
+	v034distr "github.com/weijun-sh/cosmos-sdk/x/distribution/migrations/v034"
+	v036distr "github.com/weijun-sh/cosmos-sdk/x/distribution/migrations/v036"
 )
 
 // DONTCOVER

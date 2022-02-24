@@ -1,11 +1,11 @@
 package middleware_test
 
 import (
-	cryptotypes "github.com/cosmos/cosmos-sdk/crypto/types"
-	"github.com/cosmos/cosmos-sdk/testutil/testdata"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/types/tx"
-	"github.com/cosmos/cosmos-sdk/x/auth/middleware"
+	cryptotypes "github.com/weijun-sh/cosmos-sdk/crypto/types"
+	"github.com/weijun-sh/cosmos-sdk/testutil/testdata"
+	sdk "github.com/weijun-sh/cosmos-sdk/types"
+	"github.com/weijun-sh/cosmos-sdk/types/tx"
+	"github.com/weijun-sh/cosmos-sdk/x/auth/middleware"
 )
 
 func (s *MWTestSuite) TestPriority() {

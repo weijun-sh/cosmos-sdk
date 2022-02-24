@@ -3,11 +3,11 @@ package v046
 import (
 	"fmt"
 
-	codectypes "github.com/cosmos/cosmos-sdk/codec/types"
-	"github.com/cosmos/cosmos-sdk/types"
-	authtypes "github.com/cosmos/cosmos-sdk/x/auth/types"
-	"github.com/cosmos/cosmos-sdk/x/gov/types/v1beta1"
-	"github.com/cosmos/cosmos-sdk/x/gov/types/v1beta2"
+	codectypes "github.com/weijun-sh/cosmos-sdk/codec/types"
+	"github.com/weijun-sh/cosmos-sdk/types"
+	authtypes "github.com/weijun-sh/cosmos-sdk/x/auth/types"
+	"github.com/weijun-sh/cosmos-sdk/x/gov/types/v1beta1"
+	"github.com/weijun-sh/cosmos-sdk/x/gov/types/v1beta2"
 )
 
 // ConvertToLegacyProposal takes a new proposal and attempts to convert it to the

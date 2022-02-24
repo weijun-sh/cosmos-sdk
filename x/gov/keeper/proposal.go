@@ -3,11 +3,11 @@ package keeper
 import (
 	"fmt"
 
-	"github.com/cosmos/cosmos-sdk/client"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
-	"github.com/cosmos/cosmos-sdk/x/gov/types"
-	"github.com/cosmos/cosmos-sdk/x/gov/types/v1beta2"
+	"github.com/weijun-sh/cosmos-sdk/client"
+	sdk "github.com/weijun-sh/cosmos-sdk/types"
+	sdkerrors "github.com/weijun-sh/cosmos-sdk/types/errors"
+	"github.com/weijun-sh/cosmos-sdk/x/gov/types"
+	"github.com/weijun-sh/cosmos-sdk/x/gov/types/v1beta2"
 )
 
 // SubmitProposal create new proposal given an array of messages
@@ -49,7 +49,7 @@ func (keeper Keeper) SubmitProposal(ctx sdk.Context, messages []sdk.Msg, metadat
 		// proposal in a cached context.
 		// For other Msgs, we do not verify the proposal messages any further.
 		// They may fail upon execution.
-		// ref: https://github.com/cosmos/cosmos-sdk/pull/10868#discussion_r784872842
+		// ref: https://github.com/weijun-sh/cosmos-sdk/pull/10868#discussion_r784872842
 		if msg, ok := msg.(*v1beta2.MsgExecLegacyContent); ok {
 			cacheCtx, _ := ctx.CacheContext()
 			if _, err := handler(cacheCtx, msg); err != nil {

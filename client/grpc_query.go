@@ -4,7 +4,7 @@ import (
 	gocontext "context"
 	"errors"
 	"fmt"
-	"github.com/cosmos/cosmos-sdk/codec"
+	"github.com/weijun-sh/cosmos-sdk/codec"
 	proto "github.com/gogo/protobuf/proto"
 	"google.golang.org/grpc/encoding"
 	"reflect"
@@ -15,10 +15,10 @@ import (
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/metadata"
 
-	"github.com/cosmos/cosmos-sdk/codec/types"
-	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
-	grpctypes "github.com/cosmos/cosmos-sdk/types/grpc"
-	"github.com/cosmos/cosmos-sdk/types/tx"
+	"github.com/weijun-sh/cosmos-sdk/codec/types"
+	sdkerrors "github.com/weijun-sh/cosmos-sdk/types/errors"
+	grpctypes "github.com/weijun-sh/cosmos-sdk/types/grpc"
+	"github.com/weijun-sh/cosmos-sdk/types/tx"
 )
 
 var _ gogogrpc.ClientConn = Context{}

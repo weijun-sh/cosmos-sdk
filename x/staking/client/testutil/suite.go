@@ -12,17 +12,17 @@ import (
 	"github.com/tendermint/tendermint/proto/tendermint/crypto"
 	"github.com/tendermint/tendermint/rpc/client/http"
 
-	"github.com/cosmos/cosmos-sdk/client/flags"
-	"github.com/cosmos/cosmos-sdk/crypto/hd"
-	"github.com/cosmos/cosmos-sdk/crypto/keyring"
-	"github.com/cosmos/cosmos-sdk/crypto/keys/ed25519"
-	clitestutil "github.com/cosmos/cosmos-sdk/testutil/cli"
-	"github.com/cosmos/cosmos-sdk/testutil/network"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/types/query"
-	banktestutil "github.com/cosmos/cosmos-sdk/x/bank/client/testutil"
-	"github.com/cosmos/cosmos-sdk/x/staking/client/cli"
-	"github.com/cosmos/cosmos-sdk/x/staking/types"
+	"github.com/weijun-sh/cosmos-sdk/client/flags"
+	"github.com/weijun-sh/cosmos-sdk/crypto/hd"
+	"github.com/weijun-sh/cosmos-sdk/crypto/keyring"
+	"github.com/weijun-sh/cosmos-sdk/crypto/keys/ed25519"
+	clitestutil "github.com/weijun-sh/cosmos-sdk/testutil/cli"
+	"github.com/weijun-sh/cosmos-sdk/testutil/network"
+	sdk "github.com/weijun-sh/cosmos-sdk/types"
+	"github.com/weijun-sh/cosmos-sdk/types/query"
+	banktestutil "github.com/weijun-sh/cosmos-sdk/x/bank/client/testutil"
+	"github.com/weijun-sh/cosmos-sdk/x/staking/client/cli"
+	"github.com/weijun-sh/cosmos-sdk/x/staking/types"
 )
 
 type IntegrationTestSuite struct {
@@ -1299,7 +1299,7 @@ func (s *IntegrationTestSuite) TestNewUnbondCmd() {
 
 // TestBlockResults tests that the validator updates correctly show when
 // calling the /block_results RPC endpoint.
-// ref: https://github.com/cosmos/cosmos-sdk/issues/7401.
+// ref: https://github.com/weijun-sh/cosmos-sdk/issues/7401.
 func (s *IntegrationTestSuite) TestBlockResults() {
 	require := s.Require()
 	val := s.network.Validators[0]
@@ -1369,7 +1369,7 @@ func (s *IntegrationTestSuite) TestBlockResults() {
 	}
 }
 
-// https://github.com/cosmos/cosmos-sdk/issues/10660
+// https://github.com/weijun-sh/cosmos-sdk/issues/10660
 func (s *IntegrationTestSuite) TestEditValidatorMoniker() {
 	val := s.network.Validators[0]
 	require := s.Require()

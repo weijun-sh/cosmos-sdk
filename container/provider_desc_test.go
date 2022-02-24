@@ -4,7 +4,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/cosmos/cosmos-sdk/container"
+	"github.com/weijun-sh/cosmos-sdk/container"
 )
 
 type StructIn struct {

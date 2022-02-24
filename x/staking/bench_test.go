@@ -3,11 +3,11 @@ package staking_test
 import (
 	"testing"
 
-	"github.com/cosmos/cosmos-sdk/crypto/keys/ed25519"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/x/staking"
-	"github.com/cosmos/cosmos-sdk/x/staking/teststaking"
-	"github.com/cosmos/cosmos-sdk/x/staking/types"
+	"github.com/weijun-sh/cosmos-sdk/crypto/keys/ed25519"
+	sdk "github.com/weijun-sh/cosmos-sdk/types"
+	"github.com/weijun-sh/cosmos-sdk/x/staking"
+	"github.com/weijun-sh/cosmos-sdk/x/staking/teststaking"
+	"github.com/weijun-sh/cosmos-sdk/x/staking/types"
 )
 
 func BenchmarkValidateGenesis10Validators(b *testing.B) {

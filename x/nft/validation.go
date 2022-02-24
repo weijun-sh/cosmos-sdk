@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"regexp"
 
-	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
+	sdkerrors "github.com/weijun-sh/cosmos-sdk/types/errors"
 )
 
 var (

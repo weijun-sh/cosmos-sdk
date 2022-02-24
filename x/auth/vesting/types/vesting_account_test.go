@@ -9,12 +9,12 @@ import (
 	tmtime "github.com/tendermint/tendermint/libs/time"
 	tmproto "github.com/tendermint/tendermint/proto/tendermint/types"
 
-	"github.com/cosmos/cosmos-sdk/crypto/keys/secp256k1"
-	"github.com/cosmos/cosmos-sdk/simapp"
-	"github.com/cosmos/cosmos-sdk/testutil/testdata"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	authtypes "github.com/cosmos/cosmos-sdk/x/auth/types"
-	"github.com/cosmos/cosmos-sdk/x/auth/vesting/types"
+	"github.com/weijun-sh/cosmos-sdk/crypto/keys/secp256k1"
+	"github.com/weijun-sh/cosmos-sdk/simapp"
+	"github.com/weijun-sh/cosmos-sdk/testutil/testdata"
+	sdk "github.com/weijun-sh/cosmos-sdk/types"
+	authtypes "github.com/weijun-sh/cosmos-sdk/x/auth/types"
+	"github.com/weijun-sh/cosmos-sdk/x/auth/vesting/types"
 )
 
 var (

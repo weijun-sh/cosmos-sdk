@@ -3,9 +3,9 @@ package main
 import (
 	"os"
 
-	"github.com/cosmos/cosmos-sdk/cosmovisor"
-	"github.com/cosmos/cosmos-sdk/cosmovisor/cmd/cosmovisor/cmd"
-	cverrors "github.com/cosmos/cosmos-sdk/cosmovisor/errors"
+	"github.com/weijun-sh/cosmos-sdk/cosmovisor"
+	"github.com/weijun-sh/cosmos-sdk/cosmovisor/cmd/cosmovisor/cmd"
+	cverrors "github.com/weijun-sh/cosmos-sdk/cosmovisor/errors"
 )
 
 func main() {

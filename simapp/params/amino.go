@@ -3,9 +3,9 @@
 package params
 
 import (
-	"github.com/cosmos/cosmos-sdk/codec"
-	"github.com/cosmos/cosmos-sdk/codec/types"
-	"github.com/cosmos/cosmos-sdk/x/auth/migrations/legacytx"
+	"github.com/weijun-sh/cosmos-sdk/codec"
+	"github.com/weijun-sh/cosmos-sdk/codec/types"
+	"github.com/weijun-sh/cosmos-sdk/x/auth/migrations/legacytx"
 )
 
 // MakeTestEncodingConfig creates an EncodingConfig for an amino based test configuration.

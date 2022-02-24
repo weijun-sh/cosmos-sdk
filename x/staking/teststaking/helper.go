@@ -7,11 +7,11 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	cryptotypes "github.com/cosmos/cosmos-sdk/crypto/types"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/x/staking"
-	"github.com/cosmos/cosmos-sdk/x/staking/keeper"
-	stakingtypes "github.com/cosmos/cosmos-sdk/x/staking/types"
+	cryptotypes "github.com/weijun-sh/cosmos-sdk/crypto/types"
+	sdk "github.com/weijun-sh/cosmos-sdk/types"
+	"github.com/weijun-sh/cosmos-sdk/x/staking"
+	"github.com/weijun-sh/cosmos-sdk/x/staking/keeper"
+	stakingtypes "github.com/weijun-sh/cosmos-sdk/x/staking/types"
 )
 
 // Helper is a structure which wraps the staking message server

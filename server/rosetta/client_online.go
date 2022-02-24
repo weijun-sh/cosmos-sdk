@@ -18,14 +18,14 @@ import (
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/metadata"
 
-	crgerrs "github.com/cosmos/cosmos-sdk/server/rosetta/lib/errors"
-	crgtypes "github.com/cosmos/cosmos-sdk/server/rosetta/lib/types"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	grpctypes "github.com/cosmos/cosmos-sdk/types/grpc"
-	"github.com/cosmos/cosmos-sdk/version"
-	authtx "github.com/cosmos/cosmos-sdk/x/auth/tx"
-	auth "github.com/cosmos/cosmos-sdk/x/auth/types"
-	bank "github.com/cosmos/cosmos-sdk/x/bank/types"
+	crgerrs "github.com/weijun-sh/cosmos-sdk/server/rosetta/lib/errors"
+	crgtypes "github.com/weijun-sh/cosmos-sdk/server/rosetta/lib/types"
+	sdk "github.com/weijun-sh/cosmos-sdk/types"
+	grpctypes "github.com/weijun-sh/cosmos-sdk/types/grpc"
+	"github.com/weijun-sh/cosmos-sdk/version"
+	authtx "github.com/weijun-sh/cosmos-sdk/x/auth/tx"
+	auth "github.com/weijun-sh/cosmos-sdk/x/auth/types"
+	bank "github.com/weijun-sh/cosmos-sdk/x/bank/types"
 )
 
 // interface assertion

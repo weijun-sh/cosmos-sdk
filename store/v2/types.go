@@ -3,8 +3,8 @@ package types
 import (
 	"io"
 
-	snapshottypes "github.com/cosmos/cosmos-sdk/snapshots/types"
-	v1 "github.com/cosmos/cosmos-sdk/store/types"
+	snapshottypes "github.com/weijun-sh/cosmos-sdk/snapshots/types"
+	v1 "github.com/weijun-sh/cosmos-sdk/store/types"
 )
 
 // Re-export relevant original store types

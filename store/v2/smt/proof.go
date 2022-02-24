@@ -6,8 +6,8 @@ import (
 	"encoding/gob"
 	"hash"
 
-	"github.com/cosmos/cosmos-sdk/store/types"
-	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
+	"github.com/weijun-sh/cosmos-sdk/store/types"
+	sdkerrors "github.com/weijun-sh/cosmos-sdk/types/errors"
 	"github.com/lazyledger/smt"
 	"github.com/tendermint/tendermint/crypto/merkle"
 	tmmerkle "github.com/tendermint/tendermint/proto/tendermint/crypto"

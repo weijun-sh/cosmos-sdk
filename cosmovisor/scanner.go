@@ -8,7 +8,7 @@ import (
 	"path/filepath"
 	"time"
 
-	upgradetypes "github.com/cosmos/cosmos-sdk/x/upgrade/types"
+	upgradetypes "github.com/weijun-sh/cosmos-sdk/x/upgrade/types"
 )
 
 type fileWatcher struct {

@@ -1,12 +1,12 @@
 package middleware
 
 import (
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
-	"github.com/cosmos/cosmos-sdk/types/tx"
-	"github.com/cosmos/cosmos-sdk/types/tx/signing"
-	authsigning "github.com/cosmos/cosmos-sdk/x/auth/signing"
-	"github.com/cosmos/cosmos-sdk/x/auth/types"
+	sdk "github.com/weijun-sh/cosmos-sdk/types"
+	sdkerrors "github.com/weijun-sh/cosmos-sdk/types/errors"
+	"github.com/weijun-sh/cosmos-sdk/types/tx"
+	"github.com/weijun-sh/cosmos-sdk/types/tx/signing"
+	authsigning "github.com/weijun-sh/cosmos-sdk/x/auth/signing"
+	"github.com/weijun-sh/cosmos-sdk/x/auth/types"
 )
 
 // ComposeMiddlewares compose multiple middlewares on top of a tx.Handler. The

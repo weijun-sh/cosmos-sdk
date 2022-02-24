@@ -15,11 +15,11 @@ import (
 	"google.golang.org/grpc/codes"
 	grpcstatus "google.golang.org/grpc/status"
 
-	"github.com/cosmos/cosmos-sdk/codec"
-	snapshottypes "github.com/cosmos/cosmos-sdk/snapshots/types"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
-	"github.com/cosmos/cosmos-sdk/types/tx"
+	"github.com/weijun-sh/cosmos-sdk/codec"
+	snapshottypes "github.com/weijun-sh/cosmos-sdk/snapshots/types"
+	sdk "github.com/weijun-sh/cosmos-sdk/types"
+	sdkerrors "github.com/weijun-sh/cosmos-sdk/types/errors"
+	"github.com/weijun-sh/cosmos-sdk/types/tx"
 )
 
 // InitChain implements the ABCI interface. It runs the initialization logic
@@ -405,7 +405,7 @@ func (app *BaseApp) snapshot(height int64) {
 func (app *BaseApp) Query(req abci.RequestQuery) (res abci.ResponseQuery) {
 
 	// Add panic recovery for all queries.
-	// ref: https://github.com/cosmos/cosmos-sdk/pull/8039
+	// ref: https://github.com/weijun-sh/cosmos-sdk/pull/8039
 	defer func() {
 		if r := recover(); r != nil {
 			res = sdkerrors.QueryResult(sdkerrors.Wrapf(sdkerrors.ErrPanic, "%v", r), app.trace)

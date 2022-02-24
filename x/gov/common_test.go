@@ -6,14 +6,14 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/cosmos/cosmos-sdk/crypto/keys/ed25519"
-	cryptotypes "github.com/cosmos/cosmos-sdk/crypto/types"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	authtypes "github.com/cosmos/cosmos-sdk/x/auth/types"
-	"github.com/cosmos/cosmos-sdk/x/gov/types"
-	"github.com/cosmos/cosmos-sdk/x/gov/types/v1beta1"
-	"github.com/cosmos/cosmos-sdk/x/gov/types/v1beta2"
-	stakingtypes "github.com/cosmos/cosmos-sdk/x/staking/types"
+	"github.com/weijun-sh/cosmos-sdk/crypto/keys/ed25519"
+	cryptotypes "github.com/weijun-sh/cosmos-sdk/crypto/types"
+	sdk "github.com/weijun-sh/cosmos-sdk/types"
+	authtypes "github.com/weijun-sh/cosmos-sdk/x/auth/types"
+	"github.com/weijun-sh/cosmos-sdk/x/gov/types"
+	"github.com/weijun-sh/cosmos-sdk/x/gov/types/v1beta1"
+	"github.com/weijun-sh/cosmos-sdk/x/gov/types/v1beta2"
+	stakingtypes "github.com/weijun-sh/cosmos-sdk/x/staking/types"
 	"github.com/stretchr/testify/require"
 )
 

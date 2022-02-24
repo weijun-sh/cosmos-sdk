@@ -12,7 +12,7 @@ import (
 	protoiface "google.golang.org/protobuf/runtime/protoiface"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 
-	_ "github.com/cosmos/cosmos-sdk/api/cosmos/orm/v1alpha1"
+	_ "github.com/weijun-sh/cosmos-sdk/api/cosmos/orm/v1alpha1"
 )
 
 var (

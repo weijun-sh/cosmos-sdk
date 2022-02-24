@@ -7,18 +7,18 @@ import (
 	"strings"
 	"time"
 
-	"github.com/cosmos/cosmos-sdk/baseapp"
-	"github.com/cosmos/cosmos-sdk/codec"
-	cdctypes "github.com/cosmos/cosmos-sdk/codec/types"
-	"github.com/cosmos/cosmos-sdk/simapp/helpers"
-	simappparams "github.com/cosmos/cosmos-sdk/simapp/params"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	simtypes "github.com/cosmos/cosmos-sdk/types/simulation"
-	authtypes "github.com/cosmos/cosmos-sdk/x/auth/types"
-	"github.com/cosmos/cosmos-sdk/x/group/keeper"
-	"github.com/cosmos/cosmos-sdk/x/simulation"
+	"github.com/weijun-sh/cosmos-sdk/baseapp"
+	"github.com/weijun-sh/cosmos-sdk/codec"
+	cdctypes "github.com/weijun-sh/cosmos-sdk/codec/types"
+	"github.com/weijun-sh/cosmos-sdk/simapp/helpers"
+	simappparams "github.com/weijun-sh/cosmos-sdk/simapp/params"
+	sdk "github.com/weijun-sh/cosmos-sdk/types"
+	simtypes "github.com/weijun-sh/cosmos-sdk/types/simulation"
+	authtypes "github.com/weijun-sh/cosmos-sdk/x/auth/types"
+	"github.com/weijun-sh/cosmos-sdk/x/group/keeper"
+	"github.com/weijun-sh/cosmos-sdk/x/simulation"
 
-	"github.com/cosmos/cosmos-sdk/x/group"
+	"github.com/weijun-sh/cosmos-sdk/x/group"
 )
 
 var initialGroupID = uint64(100000000000000)

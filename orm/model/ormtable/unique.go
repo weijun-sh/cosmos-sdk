@@ -3,19 +3,19 @@ package ormtable
 import (
 	"context"
 
-	"github.com/cosmos/cosmos-sdk/orm/types/kv"
+	"github.com/weijun-sh/cosmos-sdk/orm/types/kv"
 
-	"github.com/cosmos/cosmos-sdk/orm/internal/fieldnames"
+	"github.com/weijun-sh/cosmos-sdk/orm/internal/fieldnames"
 
-	"github.com/cosmos/cosmos-sdk/orm/model/ormlist"
+	"github.com/weijun-sh/cosmos-sdk/orm/model/ormlist"
 
-	"github.com/cosmos/cosmos-sdk/orm/encoding/encodeutil"
+	"github.com/weijun-sh/cosmos-sdk/orm/encoding/encodeutil"
 
 	"google.golang.org/protobuf/proto"
 	"google.golang.org/protobuf/reflect/protoreflect"
 
-	"github.com/cosmos/cosmos-sdk/orm/encoding/ormkv"
-	"github.com/cosmos/cosmos-sdk/orm/types/ormerrors"
+	"github.com/weijun-sh/cosmos-sdk/orm/encoding/ormkv"
+	"github.com/weijun-sh/cosmos-sdk/orm/types/ormerrors"
 )
 
 type uniqueKeyIndex struct {

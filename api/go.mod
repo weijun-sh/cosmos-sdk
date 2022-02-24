@@ -1,4 +1,4 @@
-module github.com/cosmos/cosmos-sdk/api
+module github.com/weijun-sh/cosmos-sdk/api
 
 go 1.17
 

@@ -6,8 +6,8 @@ import (
 	"io"
 	"sync"
 
-	"github.com/cosmos/cosmos-sdk/snapshots/types"
-	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
+	"github.com/weijun-sh/cosmos-sdk/snapshots/types"
+	sdkerrors "github.com/weijun-sh/cosmos-sdk/types/errors"
 )
 
 const (

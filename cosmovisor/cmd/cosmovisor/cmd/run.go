@@ -3,7 +3,7 @@ package cmd
 import (
 	"os"
 
-	"github.com/cosmos/cosmos-sdk/cosmovisor"
+	"github.com/weijun-sh/cosmos-sdk/cosmovisor"
 )
 
 // RunArgs are the strings that indicate a cosmovisor run command.

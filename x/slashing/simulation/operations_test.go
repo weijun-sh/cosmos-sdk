@@ -1,7 +1,7 @@
 package simulation_test
 
 import (
-	"github.com/cosmos/cosmos-sdk/codec/legacy"
+	"github.com/weijun-sh/cosmos-sdk/codec/legacy"
 	"math/rand"
 	"testing"
 	"time"
@@ -11,20 +11,20 @@ import (
 	tmproto "github.com/tendermint/tendermint/proto/tendermint/types"
 	tmtypes "github.com/tendermint/tendermint/types"
 
-	cryptocodec "github.com/cosmos/cosmos-sdk/crypto/codec"
-	"github.com/cosmos/cosmos-sdk/crypto/keys/secp256k1"
-	"github.com/cosmos/cosmos-sdk/simapp"
-	simappparams "github.com/cosmos/cosmos-sdk/simapp/params"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	simtypes "github.com/cosmos/cosmos-sdk/types/simulation"
-	authtypes "github.com/cosmos/cosmos-sdk/x/auth/types"
-	"github.com/cosmos/cosmos-sdk/x/bank/testutil"
-	banktypes "github.com/cosmos/cosmos-sdk/x/bank/types"
-	distrtypes "github.com/cosmos/cosmos-sdk/x/distribution/types"
-	minttypes "github.com/cosmos/cosmos-sdk/x/mint/types"
-	"github.com/cosmos/cosmos-sdk/x/slashing/simulation"
-	"github.com/cosmos/cosmos-sdk/x/slashing/types"
-	stakingtypes "github.com/cosmos/cosmos-sdk/x/staking/types"
+	cryptocodec "github.com/weijun-sh/cosmos-sdk/crypto/codec"
+	"github.com/weijun-sh/cosmos-sdk/crypto/keys/secp256k1"
+	"github.com/weijun-sh/cosmos-sdk/simapp"
+	simappparams "github.com/weijun-sh/cosmos-sdk/simapp/params"
+	sdk "github.com/weijun-sh/cosmos-sdk/types"
+	simtypes "github.com/weijun-sh/cosmos-sdk/types/simulation"
+	authtypes "github.com/weijun-sh/cosmos-sdk/x/auth/types"
+	"github.com/weijun-sh/cosmos-sdk/x/bank/testutil"
+	banktypes "github.com/weijun-sh/cosmos-sdk/x/bank/types"
+	distrtypes "github.com/weijun-sh/cosmos-sdk/x/distribution/types"
+	minttypes "github.com/weijun-sh/cosmos-sdk/x/mint/types"
+	"github.com/weijun-sh/cosmos-sdk/x/slashing/simulation"
+	"github.com/weijun-sh/cosmos-sdk/x/slashing/types"
+	stakingtypes "github.com/weijun-sh/cosmos-sdk/x/staking/types"
 )
 
 // TestWeightedOperations tests the weights of the operations.

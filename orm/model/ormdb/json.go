@@ -5,13 +5,13 @@ import (
 	"fmt"
 	"sort"
 
-	"github.com/cosmos/cosmos-sdk/orm/types/ormerrors"
+	"github.com/weijun-sh/cosmos-sdk/orm/types/ormerrors"
 
-	"github.com/cosmos/cosmos-sdk/orm/types/ormjson"
+	"github.com/weijun-sh/cosmos-sdk/orm/types/ormjson"
 
 	"google.golang.org/protobuf/reflect/protoreflect"
 
-	"github.com/cosmos/cosmos-sdk/errors"
+	"github.com/weijun-sh/cosmos-sdk/errors"
 )
 
 func (m moduleDB) DefaultJSON(target ormjson.WriteTarget) error {

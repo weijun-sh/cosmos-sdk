@@ -4,18 +4,18 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/cosmos/cosmos-sdk/orm/internal/fieldnames"
+	"github.com/weijun-sh/cosmos-sdk/orm/internal/fieldnames"
 
-	"github.com/cosmos/cosmos-sdk/orm/encoding/encodeutil"
+	"github.com/weijun-sh/cosmos-sdk/orm/encoding/encodeutil"
 
 	"google.golang.org/protobuf/reflect/protoregistry"
 
 	"google.golang.org/protobuf/proto"
 	"google.golang.org/protobuf/reflect/protoreflect"
 
-	ormv1alpha1 "github.com/cosmos/cosmos-sdk/api/cosmos/orm/v1alpha1"
-	"github.com/cosmos/cosmos-sdk/orm/encoding/ormkv"
-	"github.com/cosmos/cosmos-sdk/orm/types/ormerrors"
+	ormv1alpha1 "github.com/weijun-sh/cosmos-sdk/api/cosmos/orm/v1alpha1"
+	"github.com/weijun-sh/cosmos-sdk/orm/encoding/ormkv"
+	"github.com/weijun-sh/cosmos-sdk/orm/types/ormerrors"
 )
 
 const (

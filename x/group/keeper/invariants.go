@@ -4,12 +4,12 @@ import (
 	"fmt"
 	"math"
 
-	storetypes "github.com/cosmos/cosmos-sdk/store/types"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/x/group"
-	"github.com/cosmos/cosmos-sdk/x/group/errors"
-	groupmath "github.com/cosmos/cosmos-sdk/x/group/internal/math"
-	"github.com/cosmos/cosmos-sdk/x/group/internal/orm"
+	storetypes "github.com/weijun-sh/cosmos-sdk/store/types"
+	sdk "github.com/weijun-sh/cosmos-sdk/types"
+	"github.com/weijun-sh/cosmos-sdk/x/group"
+	"github.com/weijun-sh/cosmos-sdk/x/group/errors"
+	groupmath "github.com/weijun-sh/cosmos-sdk/x/group/internal/math"
+	"github.com/weijun-sh/cosmos-sdk/x/group/internal/orm"
 )
 
 const (

@@ -5,7 +5,7 @@ import (
 
 	"google.golang.org/protobuf/proto"
 
-	v1alpha1 "github.com/cosmos/cosmos-sdk/api/cosmos/orm/v1alpha1"
+	v1alpha1 "github.com/weijun-sh/cosmos-sdk/api/cosmos/orm/v1alpha1"
 
 	"github.com/cosmos/cosmos-proto/generator"
 
@@ -14,10 +14,10 @@ import (
 
 const (
 	contextPkg  = protogen.GoImportPath("context")
-	ormListPkg  = protogen.GoImportPath("github.com/cosmos/cosmos-sdk/orm/model/ormlist")
-	ormdbPkg    = protogen.GoImportPath("github.com/cosmos/cosmos-sdk/orm/model/ormdb")
-	ormErrPkg   = protogen.GoImportPath("github.com/cosmos/cosmos-sdk/orm/types/ormerrors")
-	ormTablePkg = protogen.GoImportPath("github.com/cosmos/cosmos-sdk/orm/model/ormtable")
+	ormListPkg  = protogen.GoImportPath("github.com/weijun-sh/cosmos-sdk/orm/model/ormlist")
+	ormdbPkg    = protogen.GoImportPath("github.com/weijun-sh/cosmos-sdk/orm/model/ormdb")
+	ormErrPkg   = protogen.GoImportPath("github.com/weijun-sh/cosmos-sdk/orm/types/ormerrors")
+	ormTablePkg = protogen.GoImportPath("github.com/weijun-sh/cosmos-sdk/orm/model/ormtable")
 )
 
 func PluginRunner(p *protogen.Plugin) error {

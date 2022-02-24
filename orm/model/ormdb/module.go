@@ -6,19 +6,19 @@ import (
 	"encoding/binary"
 	"math"
 
-	"github.com/cosmos/cosmos-sdk/orm/types/ormjson"
+	"github.com/weijun-sh/cosmos-sdk/orm/types/ormjson"
 
 	"google.golang.org/protobuf/reflect/protodesc"
 
-	"github.com/cosmos/cosmos-sdk/orm/encoding/encodeutil"
+	"github.com/weijun-sh/cosmos-sdk/orm/encoding/encodeutil"
 
 	"google.golang.org/protobuf/proto"
 
 	"google.golang.org/protobuf/reflect/protoreflect"
 
-	"github.com/cosmos/cosmos-sdk/orm/encoding/ormkv"
-	"github.com/cosmos/cosmos-sdk/orm/model/ormtable"
-	"github.com/cosmos/cosmos-sdk/orm/types/ormerrors"
+	"github.com/weijun-sh/cosmos-sdk/orm/encoding/ormkv"
+	"github.com/weijun-sh/cosmos-sdk/orm/model/ormtable"
+	"github.com/weijun-sh/cosmos-sdk/orm/types/ormerrors"
 )
 
 // ModuleSchema describes the ORM schema for a module.

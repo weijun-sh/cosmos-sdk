@@ -5,11 +5,11 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/cosmos/cosmos-sdk/client"
-	"github.com/cosmos/cosmos-sdk/simapp"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	v038evidence "github.com/cosmos/cosmos-sdk/x/evidence/migrations/v038"
-	v040evidence "github.com/cosmos/cosmos-sdk/x/evidence/migrations/v040"
+	"github.com/weijun-sh/cosmos-sdk/client"
+	"github.com/weijun-sh/cosmos-sdk/simapp"
+	sdk "github.com/weijun-sh/cosmos-sdk/types"
+	v038evidence "github.com/weijun-sh/cosmos-sdk/x/evidence/migrations/v038"
+	v040evidence "github.com/weijun-sh/cosmos-sdk/x/evidence/migrations/v040"
 )
 
 func TestMigrate(t *testing.T) {

@@ -12,8 +12,8 @@ import (
 	"github.com/stretchr/testify/require"
 	db "github.com/tendermint/tm-db"
 
-	"github.com/cosmos/cosmos-sdk/snapshots"
-	"github.com/cosmos/cosmos-sdk/snapshots/types"
+	"github.com/weijun-sh/cosmos-sdk/snapshots"
+	"github.com/weijun-sh/cosmos-sdk/snapshots/types"
 )
 
 func checksums(slice [][]byte) [][]byte {
@@ -101,7 +101,7 @@ func (m *mockSnapshotter) Snapshot(height uint64, format uint32) (<-chan io.Read
 // The snapshot will complete when the returned closer is called.
 func setupBusyManager(t *testing.T) *snapshots.Manager {
 	// os.MkdirTemp() is used instead of testing.T.TempDir()
-	// see https://github.com/cosmos/cosmos-sdk/pull/8475 for
+	// see https://github.com/weijun-sh/cosmos-sdk/pull/8475 for
 	// this change's rationale.
 	tempdir, err := os.MkdirTemp("", "")
 	require.NoError(t, err)

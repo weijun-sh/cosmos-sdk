@@ -7,7 +7,7 @@ import (
 
 	abci "github.com/tendermint/tendermint/abci/types"
 
-	banktypes "github.com/cosmos/cosmos-sdk/x/bank/types"
+	banktypes "github.com/weijun-sh/cosmos-sdk/x/bank/types"
 )
 
 func (s *IntegrationTestSuite) TestQueryABCIHeight() {

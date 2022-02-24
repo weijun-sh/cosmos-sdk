@@ -8,12 +8,12 @@ import (
 	tmtime "github.com/tendermint/tendermint/libs/time"
 	tmproto "github.com/tendermint/tendermint/proto/tendermint/types"
 
-	"github.com/cosmos/cosmos-sdk/baseapp"
-	"github.com/cosmos/cosmos-sdk/simapp"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/x/authz"
-	"github.com/cosmos/cosmos-sdk/x/bank/testutil"
-	banktypes "github.com/cosmos/cosmos-sdk/x/bank/types"
+	"github.com/weijun-sh/cosmos-sdk/baseapp"
+	"github.com/weijun-sh/cosmos-sdk/simapp"
+	sdk "github.com/weijun-sh/cosmos-sdk/types"
+	"github.com/weijun-sh/cosmos-sdk/x/authz"
+	"github.com/weijun-sh/cosmos-sdk/x/bank/testutil"
+	banktypes "github.com/weijun-sh/cosmos-sdk/x/bank/types"
 )
 
 var (
@@ -262,7 +262,7 @@ func (s *TestSuite) TestDispatchAction() {
 }
 
 // Tests that all msg events included in an authz MsgExec tx
-// Ref: https://github.com/cosmos/cosmos-sdk/issues/9501
+// Ref: https://github.com/weijun-sh/cosmos-sdk/issues/9501
 func (s *TestSuite) TestDispatchedEvents() {
 	require := s.Require()
 	app, addrs := s.app, s.addrs

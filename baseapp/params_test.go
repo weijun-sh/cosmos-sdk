@@ -6,7 +6,7 @@ import (
 	"github.com/stretchr/testify/require"
 	tmproto "github.com/tendermint/tendermint/proto/tendermint/types"
 
-	"github.com/cosmos/cosmos-sdk/baseapp"
+	"github.com/weijun-sh/cosmos-sdk/baseapp"
 )
 
 func TestValidateBlockParams(t *testing.T) {

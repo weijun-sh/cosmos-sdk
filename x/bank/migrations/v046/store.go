@@ -1,13 +1,13 @@
 package v046
 
 import (
-	"github.com/cosmos/cosmos-sdk/codec"
-	"github.com/cosmos/cosmos-sdk/store/prefix"
-	storetypes "github.com/cosmos/cosmos-sdk/store/types"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/types/address"
-	v043 "github.com/cosmos/cosmos-sdk/x/bank/migrations/v043"
-	"github.com/cosmos/cosmos-sdk/x/bank/types"
+	"github.com/weijun-sh/cosmos-sdk/codec"
+	"github.com/weijun-sh/cosmos-sdk/store/prefix"
+	storetypes "github.com/weijun-sh/cosmos-sdk/store/types"
+	sdk "github.com/weijun-sh/cosmos-sdk/types"
+	"github.com/weijun-sh/cosmos-sdk/types/address"
+	v043 "github.com/weijun-sh/cosmos-sdk/x/bank/migrations/v043"
+	"github.com/weijun-sh/cosmos-sdk/x/bank/types"
 )
 
 // MigrateStore performs in-place store migrations from v0.43 to v0.45. The

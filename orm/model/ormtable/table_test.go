@@ -8,7 +8,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/cosmos/cosmos-sdk/orm/types/kv"
+	"github.com/weijun-sh/cosmos-sdk/orm/types/kv"
 
 	"google.golang.org/protobuf/proto"
 	"google.golang.org/protobuf/reflect/protoreflect"
@@ -17,15 +17,15 @@ import (
 	"gotest.tools/v3/golden"
 	"pgregory.net/rapid"
 
-	queryv1beta1 "github.com/cosmos/cosmos-sdk/api/cosmos/base/query/v1beta1"
-	sdkerrors "github.com/cosmos/cosmos-sdk/errors"
-	"github.com/cosmos/cosmos-sdk/orm/encoding/ormkv"
-	"github.com/cosmos/cosmos-sdk/orm/internal/testkv"
-	"github.com/cosmos/cosmos-sdk/orm/internal/testpb"
-	"github.com/cosmos/cosmos-sdk/orm/internal/testutil"
-	"github.com/cosmos/cosmos-sdk/orm/model/ormlist"
-	"github.com/cosmos/cosmos-sdk/orm/model/ormtable"
-	"github.com/cosmos/cosmos-sdk/orm/types/ormerrors"
+	queryv1beta1 "github.com/weijun-sh/cosmos-sdk/api/cosmos/base/query/v1beta1"
+	sdkerrors "github.com/weijun-sh/cosmos-sdk/errors"
+	"github.com/weijun-sh/cosmos-sdk/orm/encoding/ormkv"
+	"github.com/weijun-sh/cosmos-sdk/orm/internal/testkv"
+	"github.com/weijun-sh/cosmos-sdk/orm/internal/testpb"
+	"github.com/weijun-sh/cosmos-sdk/orm/internal/testutil"
+	"github.com/weijun-sh/cosmos-sdk/orm/model/ormlist"
+	"github.com/weijun-sh/cosmos-sdk/orm/model/ormtable"
+	"github.com/weijun-sh/cosmos-sdk/orm/types/ormerrors"
 )
 
 func TestScenario(t *testing.T) {

@@ -6,7 +6,7 @@ import (
 
 	"google.golang.org/protobuf/reflect/protoreflect"
 
-	"github.com/cosmos/cosmos-sdk/orm/types/ormerrors"
+	"github.com/weijun-sh/cosmos-sdk/orm/types/ormerrors"
 )
 
 // BytesCodec encodes bytes as raw bytes. It errors if the byte array is longer

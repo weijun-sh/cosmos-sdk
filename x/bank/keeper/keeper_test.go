@@ -10,17 +10,17 @@ import (
 	tmtime "github.com/tendermint/tendermint/libs/time"
 	tmproto "github.com/tendermint/tendermint/proto/tendermint/types"
 
-	"github.com/cosmos/cosmos-sdk/baseapp"
-	"github.com/cosmos/cosmos-sdk/simapp"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/types/query"
-	authkeeper "github.com/cosmos/cosmos-sdk/x/auth/keeper"
-	authtypes "github.com/cosmos/cosmos-sdk/x/auth/types"
-	vesting "github.com/cosmos/cosmos-sdk/x/auth/vesting/types"
-	"github.com/cosmos/cosmos-sdk/x/bank/keeper"
-	"github.com/cosmos/cosmos-sdk/x/bank/testutil"
-	"github.com/cosmos/cosmos-sdk/x/bank/types"
-	minttypes "github.com/cosmos/cosmos-sdk/x/mint/types"
+	"github.com/weijun-sh/cosmos-sdk/baseapp"
+	"github.com/weijun-sh/cosmos-sdk/simapp"
+	sdk "github.com/weijun-sh/cosmos-sdk/types"
+	"github.com/weijun-sh/cosmos-sdk/types/query"
+	authkeeper "github.com/weijun-sh/cosmos-sdk/x/auth/keeper"
+	authtypes "github.com/weijun-sh/cosmos-sdk/x/auth/types"
+	vesting "github.com/weijun-sh/cosmos-sdk/x/auth/vesting/types"
+	"github.com/weijun-sh/cosmos-sdk/x/bank/keeper"
+	"github.com/weijun-sh/cosmos-sdk/x/bank/testutil"
+	"github.com/weijun-sh/cosmos-sdk/x/bank/types"
+	minttypes "github.com/weijun-sh/cosmos-sdk/x/mint/types"
 )
 
 const (

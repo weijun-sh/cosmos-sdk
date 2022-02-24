@@ -8,9 +8,9 @@ import (
 	"google.golang.org/protobuf/reflect/protoreflect"
 	"google.golang.org/protobuf/types/dynamicpb"
 
-	ormv1alpha1 "github.com/cosmos/cosmos-sdk/api/cosmos/orm/v1alpha1"
-	"github.com/cosmos/cosmos-sdk/orm/internal/fieldnames"
-	"github.com/cosmos/cosmos-sdk/orm/model/ormtable"
+	ormv1alpha1 "github.com/weijun-sh/cosmos-sdk/api/cosmos/orm/v1alpha1"
+	"github.com/weijun-sh/cosmos-sdk/orm/internal/fieldnames"
+	"github.com/weijun-sh/cosmos-sdk/orm/model/ormtable"
 )
 
 type tableGen struct {

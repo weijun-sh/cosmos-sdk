@@ -3,7 +3,7 @@ package types
 import (
 	"testing"
 
-	"github.com/cosmos/cosmos-sdk/store/types"
+	"github.com/weijun-sh/cosmos-sdk/store/types"
 	"github.com/stretchr/testify/suite"
 )
 

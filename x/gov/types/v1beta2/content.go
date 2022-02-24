@@ -5,9 +5,9 @@ import (
 
 	"github.com/gogo/protobuf/proto"
 
-	codectypes "github.com/cosmos/cosmos-sdk/codec/types"
-	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
-	"github.com/cosmos/cosmos-sdk/x/gov/types/v1beta1"
+	codectypes "github.com/weijun-sh/cosmos-sdk/codec/types"
+	sdkerrors "github.com/weijun-sh/cosmos-sdk/types/errors"
+	"github.com/weijun-sh/cosmos-sdk/x/gov/types/v1beta1"
 )
 
 // NewLegacyContent creates a new MsgExecLegacyContent from a legacy Content
